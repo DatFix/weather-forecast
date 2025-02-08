@@ -77,6 +77,8 @@ const Weather = () => {
 
             const reponse = await fetch(url)
             const data = await reponse.json()
+            console.log("Data::::::::::", data);
+            
             const icon = allIcons[data.weather[0].icon] || clear_icon
             setWeatherData({
                 humidity: data.main.humidity,

@@ -77,9 +77,9 @@
     margin-top: 10px;
 }
 
-@media screen and (max-width: 720px) {
+@media screen and (max-width: 480px) {
     .weather{
-        padding: 20px;
+        padding: 15px;
     }
 }
 
